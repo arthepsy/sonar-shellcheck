@@ -1,0 +1,12 @@
+#!/bin/bash
+a='cow moo'; echo $a
+for f in *.mp3; do echo $f; done
+a='*'; b=$a; c=lol${b//foo/bar}; echo $c
+a=foo$(lol); echo $a
+a=foo\\ bar; rm $a
+rm $1
+rm ${10//foo/bar}
+echo foo=$1
+echo $PWD
+
+echo $1

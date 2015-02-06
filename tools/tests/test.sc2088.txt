@@ -1,0 +1,5 @@
+#!/bin/bash
+var="~/out.txt"
+foo > '~/dir'
+
+rm "~/Desktop/$filename"

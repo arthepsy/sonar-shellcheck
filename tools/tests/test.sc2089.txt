@@ -1,0 +1,8 @@
+#!/bin/bash
+param='--foo="bar"'; app $param
+param="--foo='lolbar'"; app $param
+param='my\ file'; cmd="rm $param"; $cmd
+param='my\ file'; rm $param
+param="/foo/'bar baz'/etc"; rm $param
+
+args='-lh "My File.txt"'; ls $args
