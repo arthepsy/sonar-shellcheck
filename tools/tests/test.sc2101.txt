@@ -1,0 +1,4 @@
+#!/bin/bash
+ls *[:digit:].jpg
+
+gzip file[:digit:]*.txt

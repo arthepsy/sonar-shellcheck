@@ -1,0 +1,5 @@
+#!/bin/bash
+continue 2
+if true; then continue; fi
+if true; then break; fi
+if true; then break; fi

@@ -1,0 +1,3 @@
+#!/bin/bash
+for f; do ( break; ); done
+while true; do true | { break; }; done

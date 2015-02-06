@@ -1,0 +1,3 @@
+#!/bin/bash
+_f1() { break; }
+_f2() { continue; }
