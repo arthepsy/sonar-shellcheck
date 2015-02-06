@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 for f in $(echo $tmp); do echo lol; done
 date +`echo "$format"`
 foo "$(echo "$(date) value:" $value)"
