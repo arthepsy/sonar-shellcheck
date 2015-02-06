@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "VALUES ("id")"
+
+echo "<img src="foo.png" />" > file.html
