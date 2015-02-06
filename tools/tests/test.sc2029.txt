@@ -1,0 +1,4 @@
+#!/bin/bash
+ssh host "echo $PS1"
+
+ssh host "echo $HOSTNAME"

@@ -1,0 +1,9 @@
+#!/bin/bash
+PS1='\\033[1;35m\\$ '
+export PS1='\\033[1;35m\\$ '
+PS1='\\h \\e[0m\\$ '
+PS1=$'\\x1b[c '
+PS1=$'\\e[3m; '
+export PS1=$'\\e[3m; '
+
+PS1='\e[36m\$ \e(B\e[m'

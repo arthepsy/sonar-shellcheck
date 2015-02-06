@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo echo 3 > /proc/file
+sudo cmd < input
+sudo cmd >> file
+sudo cmd &> file
+
+sudo echo 'export FOO=bar' >> /etc/profile

@@ -1,0 +1,5 @@
+#!/bin/bash
+echo 'foo\nbar\n'
+echo "n\t42"
+
+echo "Name:\t$value"
