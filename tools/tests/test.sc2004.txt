@@ -1,0 +1,6 @@
+#!/bin/bash
+echo $((3+$foo))
+cow=14; (( s+= $cow ))
+for ((i=0; $i < 3; i)); do true; done
+
+echo $(($n+1))

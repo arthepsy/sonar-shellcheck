@@ -1,0 +1,6 @@
+#!/bin/bash
+foo=$(expr 3 + 2)
+foo=`echo \`expr 3 + 2\``
+
+i=$(expr 1 + 2)
+l=$(expr length "$var")

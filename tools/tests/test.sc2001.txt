@@ -1,0 +1,5 @@
+#!/bin/bash
+rm $(echo $cow | sed -e 's,foo,bar,')
+FOO=$(echo "$cow" | sed 's/foo/bar/g')
+
+string="stirng" ; echo "$string" | sed -e "s/ir/ri/"

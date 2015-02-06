@@ -1,0 +1,6 @@
+#!/bin/bash
+cat foo | grep bar
+var=foo
+cat $var | grep bar
+
+cat file | tr ' ' _
