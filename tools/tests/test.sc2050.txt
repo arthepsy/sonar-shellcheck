@@ -1,0 +1,4 @@
+#!/bin/bash
+[[ foo != bar ]]
+[[ n -le 4 ]]
+[[ $n -le 4 && n -ge 2 ]]

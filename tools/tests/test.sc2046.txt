@@ -1,0 +1,7 @@
+#!/bin/bash
+rm $(ls)
+rm `ls`
+rm foo$(date)
+[ $(foo) == cow ]
+
+ls -l $(getfilename)
