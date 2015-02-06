@@ -1,0 +1,11 @@
+#!/bin/bash
+foo=(a b); echo $foo
+coproc foo while true; do echo cow; done; echo $foo
+coproc tail -f log; echo "$COPROC"
+
+myarray=(foo bar)
+for f in $myarray
+do
+  cat "$f"
+done
+

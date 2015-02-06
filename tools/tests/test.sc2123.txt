@@ -1,0 +1,4 @@
+#!/bin/bash
+PATH="$var/$foo"
+PATH="mydir"
+PATH=/cow/foo

@@ -1,0 +1,3 @@
+#!/bin/bash
+foo1 >> file1; bar1 >> file1; baz1 >> file1;
+foo2 >> file2; bar2 | grep f >> file2; baz2 >> file2;

@@ -1,0 +1,3 @@
+#!/bin/bash
+[[ $foo -eq 'N' ]]
+[ x$foo -gt x${N} ]

@@ -1,0 +1,4 @@
+#!/bin/bash
+set foo 42
+set foo = 42
+set foo=42

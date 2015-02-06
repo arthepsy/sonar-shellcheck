@@ -1,0 +1,4 @@
+#!/bin/sh
+function { echo cow; }
+case foo in bar) baz ;& esac
+case foo in bar) baz ;;& esac
