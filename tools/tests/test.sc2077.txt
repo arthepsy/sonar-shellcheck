@@ -1,0 +1,4 @@
+#!/bin/bash
+[[ a==$foo ]]
+[ $foo=3 ]
+[ $foo!=3 ]
