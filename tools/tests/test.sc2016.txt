@@ -1,0 +1,13 @@
+#!/bin/bash
+echo '$foo'
+echo 'lol$1.jpg'
+sed 's/${foo}/bar/'
+sed 's/$(echo cow)/bar/'
+sed 's/$((1+foo))/bar/'
+sed -n '$pattern'
+find . -exec echo '$1' {} +
+echo '`pwd`'
+
+name=World
+echo 'Hello $name'
+echo $name

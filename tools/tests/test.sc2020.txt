@@ -1,0 +1,5 @@
+#!/bin/bash
+tr foo bar
+tr 'hello' 'world'
+
+echo 'hello world' | tr 'hello' 'goodbye'

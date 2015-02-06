@@ -1,0 +1,10 @@
+#!/bin/bash
+for f in $(cat foo); do stuff; done
+for f in `cat foo`; do stuff; done
+for f in $(cat foo | grep lol); do stuff; done
+for f in `cat foo | grep lol`; do stuff; done
+
+for line in $(cat file | grep -v '^ *#')
+do
+  echo "Line: $line"
+done

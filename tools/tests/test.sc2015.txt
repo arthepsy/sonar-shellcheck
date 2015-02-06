@@ -1,0 +1,4 @@
+#!/bin/bash
+[[ ! -z file ]] && scp file host || rm file
+
+[[ $dryrun ]] && echo "Would delete file" || rm file
