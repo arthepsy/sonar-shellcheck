@@ -1,0 +1,4 @@
+#!/bin/bash
+tr [a-f] [A-F]
+
+tr -cd [:digit:]

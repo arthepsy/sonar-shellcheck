@@ -1,0 +1,5 @@
+#!/bin/bash
+printf "Lol: $s"
+printf -v cow $(cmd)
+
+printf "Hello, $NAME\n"
