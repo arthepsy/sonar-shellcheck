@@ -1,0 +1,6 @@
+#!/bin/bash
+trap "echo $num" INT
+trap "echo `ls`" INT
+trap "echo $((1+num))" EXIT DEBUG
+
+trap "echo \"Finished on $(date)\"" EXIT

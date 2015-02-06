@@ -1,0 +1,6 @@
+#!/bin/bash
+ls $@
+ls ${foo[@]}
+for f in ${var[@]}; do true; done
+
+cp $@ ~/dir

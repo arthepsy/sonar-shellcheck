@@ -1,0 +1,4 @@
+#!/bin/bash
+test 2>&1 > cow
+
+firefox 2>&1 > /dev/null

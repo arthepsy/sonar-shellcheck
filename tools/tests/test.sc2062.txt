@@ -1,0 +1,8 @@
+#!/bin/bash
+cat foo | grep *.mp3
+grep -Ev cow*test *.mp3
+grep --regex=*.mp3 file
+grep *foo* file
+ls | grep foo*.jpg
+
+grep foo* file

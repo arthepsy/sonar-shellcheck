@@ -1,0 +1,5 @@
+#!/bin/bash
+cat foo | grep *.mp3
+grep *foo* file
+
+grep '*foo*'

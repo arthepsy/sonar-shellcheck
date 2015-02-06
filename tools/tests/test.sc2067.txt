@@ -1,0 +1,7 @@
+#!/bin/bash
+find / -name '*.php' -exec rm {};
+find / -exec touch {} && ls {} \;
+find / -execdir cat {} | grep lol +
+
+find . -type f -exec shellcheck {} | wc -l \;
+find . -exec echo {} ;

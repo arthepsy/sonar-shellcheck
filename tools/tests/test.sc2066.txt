@@ -1,0 +1,5 @@
+#!/bin/sh
+for f in "$(ls)"; do echo foo; done
+for f in "*.mp3"; do echo foo; done
+
+for s in "$(mycommand)"; do echo "$s"; done
