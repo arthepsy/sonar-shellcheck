@@ -1,0 +1,4 @@
+#!/bin/bash
+var=foo echo $var
+
+name=World cmd -m "Hello $name"

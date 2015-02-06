@@ -1,0 +1,3 @@
+#!/bin/bash
+while read foo; do ssh $foo uptime; done < file
+while read foo; do if true; then ssh $foo uptime; fi; done < file

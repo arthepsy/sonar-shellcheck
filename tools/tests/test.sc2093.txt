@@ -1,0 +1,4 @@
+#!/bin/bash
+exec foo; true
+if a; then exec b; exec c; fi
+exec foo > file; cmd

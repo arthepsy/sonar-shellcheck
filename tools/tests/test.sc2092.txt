@@ -1,0 +1,3 @@
+#!/bin/bash
+if `true`; then true; fi
+while "`cmd`"; do :; done

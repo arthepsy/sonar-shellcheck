@@ -1,0 +1,5 @@
+#!/bin/bash
+cat foo > foo
+cat lol | sed -e 's/a/b/g' > lol
+
+grep foo file.txt | sed -e 's/foo/bar/g' > file.txt
