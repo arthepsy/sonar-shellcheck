@@ -1,0 +1,4 @@
+#!/bin/sh
+echo >(true)
+echo <(true)
+echo >(true) <(true)

@@ -1,0 +1,19 @@
+#!/bin/sh
+while read a; do :; done < <(a)
+[ foo -nt bar ]
+echo $((i++))
+rm !(*.hs)
+source file
+[ "$a" == 42 ]
+echo ${var[1]}
+echo ${!var[@]}
+echo ${!var*}
+echo ${var:4:12}
+echo ${var//foo/bar}
+exec -c env
+echo -n "Foo: "
+let n++
+echo $RANDOM
+echo $((RANDOM%6+1))
+foo &> /dev/null
+foo > file*.txt

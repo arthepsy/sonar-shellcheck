@@ -1,0 +1,4 @@
+#!/bin/bash
+A=ls -l
+A=ls --sort=$foo
+A=cat foo | grep bar

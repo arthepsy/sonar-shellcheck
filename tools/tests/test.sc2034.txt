@@ -1,0 +1,8 @@
+#!/bin/bash
+var=foo; echo $bar
+for f in *; do echo '$f'; done
+local i=0
+var2=2; var2=3;
+
+foo=42
+echo "$FOO"
