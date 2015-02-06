@@ -1,0 +1,5 @@
+#!/bin/sh
+su; rm file; su "$USER"
+su foo; something; exit
+
+whoami; su; whoami
