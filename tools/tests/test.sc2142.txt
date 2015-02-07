@@ -1,0 +1,5 @@
+#!/bin/bash
+alias a='cp $1 /a'
+alias a="echo \${@}"
+
+alias archive='mv "$@" /backup'

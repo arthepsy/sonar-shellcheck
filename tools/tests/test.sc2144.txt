@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ -e *.mp3 ]; then echo "found"; fi

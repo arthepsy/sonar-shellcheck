@@ -1,0 +1,10 @@
+#!/bin/bash
+(( a[$i] ))
+
+# Regular array
+index=42
+echo $((array[$index]))
+
+# Associative array
+index=banana
+echo $((array[$index]))

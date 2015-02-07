@@ -1,0 +1,4 @@
+#!/bin/bash
+find . -name '*.wav' -o -name '*.au' -exec rm {} + 
+
+find . -name '*.avi' -o -name '*.mkv' -exec cp {} /media \;

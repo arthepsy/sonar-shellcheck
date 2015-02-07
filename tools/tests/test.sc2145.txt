@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "foo$@"
+echo ${arr[@]}lol
+echo $a$@
+
+printf "Error: %s\n" "Bad parameters: $@"
