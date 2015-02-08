@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ foo || [ bar ] ]; then true; fi

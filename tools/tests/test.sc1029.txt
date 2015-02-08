@@ -1,0 +1,2 @@
+#!/bin/bash
+if [[ \( $foo -lt 1 \) ]]; then true; fi

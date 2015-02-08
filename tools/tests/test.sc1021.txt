@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ \( 1\) ]; then true; fi
